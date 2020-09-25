@@ -21,6 +21,3 @@ def taskjson(request):
                            {"firstName":"Anna", "lastName":"Smith"},
                            {"firstName":"Peter", "lastName":"Jones"}]}
     return JsonResponse(result)
-
-def abc(request):
-    pass
