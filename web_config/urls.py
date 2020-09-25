@@ -21,5 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', restapiview.home, name='home'),
     path('restapi/task/string', restapiview.taskstring, name='restapi_task_string'),
+    path('restapi/task/xml', restapiview.taskxml, name='restapi_task_xml'),
+    path('restapi/task/json', restapiview.taskjson, name='restapi_task_json'),
 
 ]
